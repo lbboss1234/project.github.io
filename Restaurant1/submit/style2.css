@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(208, 184, 88);
+}
+input{
+    width: 50%;
+    height: 25%;
+    font-size: 20px;
+    margin:50px 0 0 25%;
+}
+#plates{
+    background-color: rgb(73, 173, 173);
+    color: white;
+    height: auto;
+    text-align: center;
+    font-size: 35px;
+}
+#visibl{
+    margin-top:70px;
+    visibility: hidden;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    flex-direction:row; 
+}
+#create{
+    width: 20%;
+    height: auto;
+    background-color:rgb(73, 173, 173);
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 40%;
+}
+#create:hover{
+    background-color: rgb(5, 77, 77);
+    transition: 0.7s;
+}
+select,label{
+    width: 150px;
+    height: 40px;
+    font-size: 30px;
+}
+#add{
+    height: 25%;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 85%;
+}
+#myUL{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 30px;
+}
+.close{
+    color:black;
+    float: right;
+    font-size: 25px;
+}
+
+ul{
+    list-style-type: none;
+}
+ul li:nth-child(odd) {
+    background: #b6a8a8;
+}
+.final{
+    text-align:right ;
+}
+#total,#prices{
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin:0 0 0 25%;
+    width: 50%;
+}
+
+#submit{
+float: right;
+margin:13% 10% 0px 100px;
+font-size: 30px;
+}
+@media screen and (max-width:520px){
+    #flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #create{
+        font-size: 15px;
+        width: auto;
+    }
+    #add{
+        font-size: 15px
+    }
+    #plates{
+        font-size: 20px;
+    }
+    select,label{
+        height: 20px;
+        width: 80px;
+        font-size: 15px;
+    }
+    #myUL,#submit{
+        font-size: 15px;
+    }
+    .close{
+        font-size: 12px;
+        height: 15px;
+
+    }
+}

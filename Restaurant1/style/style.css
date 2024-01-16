@@ -1,0 +1,151 @@
+.div1{
+    overflow: hidden;
+    position:relative;
+    height: 120vh;
+    width: 100%;
+    background-image: url(../assist/R1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+#p1{
+    background-color:gray ;font-size: 35px;color: white;display: block;
+}   
+
+#p2{
+    font-size:20px;color:white;display: block;
+}
+
+.cont{
+    background-color: black;
+}
+
+.section1{
+    margin: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    height: auto;
+    width: 35%;
+    border-radius: 10px;
+    background-color: red;
+    color:white;
+    font-size: 25px;
+}
+.btn:hover{
+    font-size: 35px;
+    transition: 0.3s;
+}
+.div2{
+    height: 100%;
+    background-image: url(../assist/q.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+#sec{
+    background-color: rgb(73, 173, 173);
+}
+
+.flx-items{
+    padding: 12% 0 0 15%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+
+}
+#phone{
+    margin: 10% 0 0 20%;
+}
+
+.btn2{
+    height:20%;
+    width: 30%;
+    border-radius: 10px;
+    background-color: rgb(41, 29, 29);
+    color: white;
+    font-size: 25px;
+    margin-top: 7%;
+}
+.btn2:hover{
+    background-color:rgb(73, 173, 173) ;
+    transition: 0.3s;
+}
+
+.table-flx{
+    background-image: url(../assist/wood.jpg);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.product{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#sbtitles{
+    text-align: center;
+    color: white;
+    height: 50px;
+    background-color:rgb(63, 22, 22);
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.sbtitle{
+    font-size: 30px;
+}
+
+.names{
+    font-size: 30px;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(73, 173, 173);
+    transition: 0.5s;
+}
+.imgFood{
+    width: 250px;
+    height: 250px;
+}
+@media screen and (max-width:520px) {
+    .imgFood{
+        height: 150px;
+        width: 150px;
+    }
+    .btn2{
+        font-size: 7px;
+    }
+    .flx-items{
+        padding: 10% 0 0% 15%;
+    }
+    #phone{
+        font-size: 7px;
+        margin:2% 0 0 15%;
+    }
+    .names{
+        font-size: 20px;
+    }
+    .s1{
+        height: 150px;
+        width: 150px;
+    }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="./jv.js"></script>
+</head>
+<body>
+    
+   
+    <div id="plates">
+        <h1> PLATES </h1>
+    </div>
+    <button id="create" onclick="print()">Create Order</button>
+    <div id="visibl">
+        <div>
+        <label>Appetizers: </label>
+        <select id="api" ></select>
+        </div>
+        <div>
+        <label>Main: </label>
+        <select id="main"></select>
+        </div>
+        <div>
+        <label>Drinks: </label>
+        <select id="drinks"></select>
+        </div>
+        <div>
+        <label>Dessert: </label>
+        <select id="dessert"></select>
+        </div>
+        </div>
+    <button id="add" onclick="newElement()">Add</button>
+    <ul id="myUL">
+        <li>Water</li>
+    </ul>
+    <div id="flex">
+    <p id="total">Total Price</p>
+    <p id="prices"></p>
+    </div>
+    <button id="submit" onclick="submit()">Submit</button>
+    <input id="myInput" type="text" placeholder="add your notes" value="">
+</body>
+</html>
+        
